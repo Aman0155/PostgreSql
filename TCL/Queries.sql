@@ -21,7 +21,7 @@
 
 Q1. begin;
     insert into employees (employee_id , first_name , last_name , salary ) values (7 , 'Prabhat' , 'Kanwar' ,50000);
-    insert into employees (employee_id , first_name , last_name , salary ) values (6 , 'Joggu' , 'Rathi' ,40000);
+    insert into employees (employee_id , first_name , last_name , salary ) values (6 , 'Jogger' , 'Rathi' ,40000);
     update employees set salary = 51000 where employee_id = 6;
     commit;
     
@@ -49,4 +49,4 @@ Q3. begin;
 BEGIN
 UPDATE 1
 INSERT 0 1
-COMMIT
+COMMIT  
