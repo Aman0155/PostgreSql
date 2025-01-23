@@ -11,7 +11,7 @@ Q1 select (CURRENT_DATE-CAST(dob as DATE))/365 as AGE from persons;
 -----
   21
   21
-  21
+  21-
 (6 rows)
 
  bool_value
